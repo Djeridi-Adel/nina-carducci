@@ -108,7 +108,8 @@ nav .name {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -358,6 +359,12 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+
+	nav {
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 30px 0 30px 0;
 	}
 }
 
