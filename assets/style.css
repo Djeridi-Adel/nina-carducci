@@ -250,6 +250,10 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.div__form {
+	width: 100%;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -301,7 +305,7 @@ input[type="submit"] {
 	}
 
 	#services .container::before{
-		width: 30%;
+		width: 27%;
 		height: 100%;
 		bottom: 0;
 		right: 0;
@@ -363,6 +367,14 @@ input[type="submit"] {
 		justify-content: center;
 		flex-wrap: wrap;
 		padding: 30px 0 30px 0;
+	}
+
+	.quote__text {
+		font-size: 1.5rem;
+	}
+
+	.quote__author {
+		font-size: 18px;
 	}
 }
 
